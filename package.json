@@ -1,0 +1,20 @@
+{
+  "name": "solar-shield-tests",
+  "version": "1.0.0",
+  "description": "Solar Shield — Testes unitários raiz",
+  "scripts": {
+    "test": "jest --forceExit --verbose"
+  },
+  "devDependencies": {
+    "axios": "^1.16.1",
+    "axios-retry": "^4.5.0",
+    "jest": "^29.7.0",
+    "uuid": "^10.0.0"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/tests/**/*.test.js"
+    ],
+    "testEnvironment": "node"
+  }
+}
