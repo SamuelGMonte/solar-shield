@@ -217,3 +217,7 @@ solar-shield/
 6. `POST /api/ingest/gst` duas vezes em sequência — log do notifier mostra `Duplicate ignored event_id=...`
 7. `npm test` — 3 suítes, todos verdes (RN1 + RN3)
 8. `docker run --rm --network host -i grafana/k6 run - < k6/smoke.js` — mostrar p95 e taxa de erro
+
+
+## Vídeo Pitch
+https://www.youtube.com/watch?v=gbFt9A2UWvM
